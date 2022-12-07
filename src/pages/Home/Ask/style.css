@@ -1,0 +1,168 @@
+.acardion{
+    border-radius: 0px !important;
+    border:1px solid rgba(0, 0, 0, .1) !important;
+}
+.css-2p4oai-MuiPaper-root-MuiAccordion-root{
+    box-shadow: none !important;
+}
+
+
+#rang{
+    position: relative;
+    margin: 45px 0;
+    padding: 90px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../../../assets/imgs/carousel-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+
+.icon:hover{
+    color:"black"
+
+}
+
+.pulse {
+    margin:100px;
+    display: block;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fdbe33;
+    cursor: pointer;
+    box-shadow: 0 0   0 #fdbe33;
+    animation: pulse 2s infinite;
+  }
+  .pulse:hover {
+    animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 #fdbe33;
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px #fdbe33;
+        box-shadow: 0 0 0 30px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 #fdbe33;
+        box-shadow: 0 0 0 30px rgba(204,169,44, 0);
+    }
+  }
+
+
+
+  .video {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid #030f27;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* body {
+  font-family: sans-serif;
+} */
+
+.slider {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.slick-track {
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+
+.slick-slide {
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slick-slide:not(.slick-current) {
+  filter: brightness(0.5);
+}
+
+.slick-slide.slick-current {
+  transform: scale(1.35);
+  position: relative;
+  z-index: 1;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slick-next:before, [dir=rtl] .slick-prev:before{
+  content:"" !important
+}
+.slick-prev:before{
+  content:"" !important
+
+}
+.slick-dots li button:before{
+  font-size: 0 !important;
+}
+
+
+
+
+
+
+.react-3d-carousel .slider-container .slider-right div{
+  border: none !important;
+  /* padding: 0!important; */
+}
+
+.react-3d-carousel .slider-container .slider-left div{
+  border: none !important;
+
+}

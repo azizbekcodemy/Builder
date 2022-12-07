@@ -1,0 +1,29 @@
+#ProjectZZZ .css-1aquho2-MuiTabs-indicator{
+    height: 0px;
+}
+#ProjectZZZ .css-162dlu8-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #fdbe33;
+    background:  #030f27;
+}
+#ProjectZZZ .css-hmcu4a-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #fdbe33;
+    background:  #030f27;
+}
+#ProjectZZZ .css-1qevc9w-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #fdbe33;
+    background:  #030f27;
+}
+#ProjectZZZ .css-dbs2fu-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #fdbe33;
+    background:  #030f27;
+}
+.POsZZ{
+    transition: opacity 0.35s, transform 0.35s;
+    /* transform: scale(1); */
+}
+@media screen and (max-width:550px) {
+    #ProjectZZZ .css-13xfq8m-MuiTabPanel-root{
+        padding: 15px;
+    }
+    
+}

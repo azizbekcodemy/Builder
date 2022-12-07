@@ -1,0 +1,118 @@
+.hover{
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.text{
+    position: relative;
+    padding: 25px 15px;
+    text-align: center;
+    background: #030f27;
+    transition: .5s;
+}
+.h2{
+    font-size: 20px;
+    font-weight: 600!important;
+    color: #fdbe33;
+    transition: .5s;
+}
+.hover:hover .text {
+    background: #fdbe33;
+}
+
+.hover:hover .text .h2 {
+    color: #030f27;
+    letter-spacing: 1px;
+}
+.p{
+    margin: 0;
+    color: #ffffff;
+}
+.icon{
+    position: absolute;
+    width: 100px;
+    top: 0;
+    left: -50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0;
+    opacity: 1;
+}
+.link{
+    position: relative;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link1{
+    position: relative;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link2{
+    position: relative;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link3{
+    position: relative;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.hover:hover .icon .link{
+    background-color: #00acee;
+    left: 50px;
+    transition: .3s 0s;
+}
+
+.hover:hover .icon .link1{
+    background: #3b5998;
+    left: 50px;
+    transition: .3s .1s;
+}
+.hover:hover .icon .link2{
+    background: #0e76a8;
+    left: 50px;
+    transition: .3s .2s;
+}
+.hover:hover .icon .link3{
+    background: #3f729b;
+    left: 50px;
+    transition: .3s .3s;
+}
+.hover .css-1ps4owl-MuiTypography-root-MuiLink-root{
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    text-decoration-color: none;
+}

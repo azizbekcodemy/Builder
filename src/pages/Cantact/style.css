@@ -1,0 +1,10 @@
+.con_input::placeholder {
+    color: #fff
+}
+
+
+
+.btn:hover {
+    background: #fff !important;
+    color: black !important;
+}

@@ -1,0 +1,47 @@
+.nav_get:hover {
+       background: #fdbe33;
+       color: black !important;
+       border-color: #fdbe33 !important;
+}
+
+#Navbar2ZZZ:hover {
+       color: #fdbe33 !important;
+}
+
+#Navbar2ZZZ:focus {
+       color: #fdbe33 !important;
+}
+
+#Navbar2ZZZ:active {
+       color: #fdbe33 !important;
+}
+
+#Navbar2ZZZ:focus-visible {
+       color: #fdbe33 !important;
+}
+
+#Navbar2ZZZ:focus-within {
+       color: #fdbe33 !important;
+}
+
+.nav.fixed {
+     
+       position: fixed !important;
+       top: 0 !important;
+       width: 100% !important;
+       max-width: 1366px !important;
+       box-shadow: 0 2px 5px rgb(0 0 0 / 30%) !important;
+       z-index: 999 !important;
+       padding-left: 0px !important;
+}
+.navbar.padding {
+       padding-left: 0px !important;
+}
+.nav{
+       transition: .3s;
+}
+#menu-appbar .css-6hp17o-MuiList-root-MuiMenu-list {
+       padding-top: 0px;
+       padding-bottom: 0px;
+       border-radius: 0px;
+}

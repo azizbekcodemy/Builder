@@ -1,0 +1,16 @@
+.button.butting{
+    position: fixed !important;
+    display: none !important;
+    background: #fdbe33 !important;
+    color: #121518  !important;
+    width: 44px !important;
+    height: 44px !important;
+    text-align: center !important;
+    line-height: 1 !important;
+    font-size: 22px !important;
+    right: 15px !important;
+    bottom: 15px !important;
+    transition:  0.5s !important;
+    z-index: 9 !important;
+    transition: .3s !important;
+}

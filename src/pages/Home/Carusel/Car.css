@@ -1,0 +1,49 @@
+#CarImg1{
+    background-image: url(../../../assets/img/carousel-1.png);
+    height: calc(100vh - 177px);
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-position-y: top;
+}
+#CarImg2{
+    background-image: url(../../../assets/img/carousel-2.png);
+    height: calc(100vh - 177px);
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-position-y: top;
+}
+#CarImg3{
+    background-image: url(../../../assets/img/carousel-3.png);
+    height: calc(100vh - 177px);
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-position-y: top  ;
+}
+#CarZZZ .carousel-control-prev-icon{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+#CarZZZ .carousel-control-next-icon{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
